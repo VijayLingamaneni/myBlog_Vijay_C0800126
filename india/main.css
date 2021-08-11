@@ -3,10 +3,6 @@ body {
     background-image: linear-gradient(to right, #26b021, #6ded98);
 }
 
-
-
-
-
 /*header-------------------------------------------------------------------------------------------------------------------*/
 
 .mainheader {
@@ -14,8 +10,6 @@ body {
     color: white;
     z-index: 100;
     background-image: linear-gradient(to right, #26b021, #6ded98);
-
-
     padding: 21.1px;
     top: 0.0px;
     width: 100%;
@@ -97,7 +91,26 @@ body {
     margin-bottom: 30.0px;
 }
 
+table {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px
+}
 
+td, th {
+    border: 1px solid #ffbc2a;
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #9eff81;
+}
+
+tr:nth-child(odd) {
+    background-color: #f8ab46;
+}
 
 /*sidebar-------------------------------------------------------------------------------------------------------------------*/
 
@@ -128,6 +141,24 @@ body {
     margin-top: 10px;
 }
 
+.aside-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(173, 173, 173);
+}
+
+.aside-form input {
+    width: 70%;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.aside-form input:nth-child(4) {
+    border: none;
+    color: white;
+    background-color: rgb(92, 205, 98);
+}
+
 /*footer--------------------------------------------------------------------------------------------------------------------------*/
 
 .mainfooter {
@@ -136,9 +167,7 @@ body {
     bottom: 0px;
     width: 100%;
     background-image: linear-gradient(to right, #26b021, #6ded98);
-
 }
-
 
 .sent {
     float: right;
@@ -159,11 +188,13 @@ body {
     color: white;
     margin-right: 20px;
 }
+
 html {
     scroll-behavior: smooth;
 }
-.Copyright{
-    text-align: center ;
+
+.Copyright {
+    text-align: center;
     color: white;
     display: inline-block;
     width: 50%;
