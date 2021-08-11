@@ -1,0 +1,170 @@
+body {
+    margin: 0.0px;
+    background-image: linear-gradient(to right, #26b021, #6ded98);
+}
+
+
+
+
+
+/*header-------------------------------------------------------------------------------------------------------------------*/
+
+.mainheader {
+    position: fixed;
+    color: white;
+    z-index: 100;
+    background-image: linear-gradient(to right, #26b021, #6ded98);
+
+
+    padding: 21.1px;
+    top: 0.0px;
+    width: 100%;
+}
+
+.mainheader h1 {
+    font-family: Jazz LET, fantasy;
+    margin-bottom: 6px;
+}
+
+.mainheader p {
+    margin-left: 41px;
+    margin-top: 6px;
+}
+
+/*navbar-------------------------------------------------------------------------------------------------------------------*/
+
+.mainnav {
+    top: 140px;
+    position: fixed;
+    width: 100%;
+}
+
+.mainnav ul {
+    background-color: rgb(62, 252, 109);
+    padding: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.mainnav ul li {
+    color: white;
+    display: inline;
+    list-style: none;
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+.mainnav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/*main-------------------------------------------------------------------------------------------------------------------*/
+
+.mainmain {
+    display: flex;
+    margin-top: 190px;
+    background: white;
+}
+
+.mainsection {
+    background-color: white;
+    padding: 30.0px;
+    display: inline-block;
+    width: 70%;
+}
+
+.mainsection div h2 {
+    color: rgb(9, 202, 160);
+    font-family: Trattatello, fantasy;
+    font-size: 2.1em;
+}
+
+.mainsection div img {
+    float: left;
+    width: 400.0px;
+    height: 300.0px;
+    margin: 20.0px;
+}
+
+.mainsection div p {
+    font-size: 1.2em;
+    font-family: Garamond, serif;
+}
+
+.mainmain {
+    margin-bottom: 30.0px;
+}
+
+
+
+/*sidebar-------------------------------------------------------------------------------------------------------------------*/
+
+.mainaside {
+    width: 25%;
+    position: fixed;
+    right: 0px;
+}
+
+.mainaside ul li a img {
+    width: 50px;
+    height: 50px;
+}
+
+.mainaside ul li a {
+    display: flex;
+    align-items: center;
+    color: rgb(128, 0, 47);
+    text-decoration: none;
+}
+
+.mainaside ul li a span {
+    margin-left: 20px;
+}
+
+.mainaside ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+/*footer--------------------------------------------------------------------------------------------------------------------------*/
+
+.mainfooter {
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-image: linear-gradient(to right, #26b021, #6ded98);
+
+}
+
+
+.sent {
+    float: right;
+    display: inline-block;
+}
+
+.sent input {
+    padding: 11px 21px;
+    border-radius: 4px;
+}
+
+.sent button {
+    border: none;
+    background-color: rgb(0, 173, 78);
+    padding: 11px 21px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    color: white;
+    margin-right: 20px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.Copyright{
+    text-align: center ;
+    color: white;
+    display: inline-block;
+    width: 50%;
+}

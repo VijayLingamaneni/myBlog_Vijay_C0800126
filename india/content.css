@@ -1,0 +1,187 @@
+body {
+    margin: 0px;
+    background-image: linear-gradient(to right, #26b021, #6ded98);
+}
+
+
+a {
+    color: rgb(57, 0, 65);
+    text-decoration: none;
+}
+
+/*header-*/
+
+.othercontentheader {
+    position: fixed;
+    color: white;
+    padding: 20px;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+    background-image: linear-gradient(to right, #26b021, #6ded98);
+}
+
+.othercontentheader h1 {
+    font-family: Jazz LET, fantasy;
+    margin-bottom: 5px;
+}
+
+.othercontentheader p {
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+/*navbar-*/
+
+.othercontentnav {
+    top: 139px;
+    position: fixed;
+    width: 100%;
+}
+
+.othercontentnav ul {
+    background-color: rgb(62, 252, 109);
+    padding: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.othercontentnav ul li {
+    color: white;
+    display: inline;
+    list-style: none;
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+.othercontentnav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/*main-*/
+
+.othercontentmain {
+    display: flex;
+    margin-top: 190px;
+    background: white;
+    margin-bottom: 50px;
+}
+
+.othercontentsection {
+    background-color: white;
+    padding: 30px;
+    display: inline-block;
+    margin-left: 25%;
+}
+
+.othercontentsection div h2 {
+    color: rgb(128, 0, 47);
+    font-family: Jazz LET, fantasy;
+    font-size: 2em;
+}
+
+.othercontentsection div figure {
+    float: left;
+    width: 400px;
+    margin: 30px;
+}
+
+.cont {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.cont p {
+    width: 400px;
+}
+
+.othercontentsection div figure img {
+    width: 400px;
+}
+
+.othercontentsection div p {
+    font-size: 1.2em;
+    font-family: Garamond, serif;
+}
+
+.lists {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.lists img {
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+}
+
+/*sidebar-*/
+
+.othercontentaside {
+    width: 25%;
+    position: fixed;
+    left: 0px;
+}
+
+.othercontentaside ul li a img {
+    width: 50px;
+    height: 50px;
+}
+
+.othercontentaside ul li a {
+    display: flex;
+    align-items: center;
+}
+
+.othercontentaside ul li a span {
+    margin-left: 20px;
+}
+
+.othercontentaside ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+/*footer*/
+
+.mainfooter {
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-image: linear-gradient(to right, #26b021, #6ded98);
+}
+
+.sent {
+    float: right;
+    display: inline-block;
+}
+
+.sent input {
+    padding: 11px 21px;
+    border-radius: 4px;
+}
+
+.sent button {
+    border: none;
+    background-color: rgb(0, 173, 78);
+    padding: 11px 21px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    color: white;
+    margin-right: 20px;
+}
+
+
+
+.Copyright {
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 50%;
+}
